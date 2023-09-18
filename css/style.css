@@ -4,3 +4,45 @@
     box-sizing: border-box;
 }
 
+/* header */
+header {
+    background-color: skyblue;
+}
+
+/* nav */
+.container-nav {
+    width: 70%;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.flex-nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: orange;
+}
+
+/* nav-element */
+.nav-element {
+    border: 1px dashed black;
+    padding: .3em;
+}
+
+.nav-element.logo {
+    width: 20%;
+}
+
+.nav-element.link {
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    gap: .3rem;
+    
+}
+
+.nav-element.login {
+    width: 20%;
+    display: flex;
+    justify-content: flex-end;
+    
+}
